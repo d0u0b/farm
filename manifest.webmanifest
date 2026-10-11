@@ -1,0 +1,17 @@
+{
+  "name": "像素小農場",
+  "short_name": "小農場",
+  "description": "種田、養吉娃娃和臘腸狗的像素放置農場",
+  "lang": "zh-Hant",
+  "start_url": "./",
+  "scope": "./",
+  "display": "standalone",
+  "orientation": "any",
+  "background_color": "#7cc6f2",
+  "theme_color": "#5a9e3a",
+  "icons": [
+    { "src": "icons/icon-192.png", "sizes": "192x192", "type": "image/png" },
+    { "src": "icons/icon-512.png", "sizes": "512x512", "type": "image/png" },
+    { "src": "icons/maskable-512.png", "sizes": "512x512", "type": "image/png", "purpose": "maskable" }
+  ]
+}
