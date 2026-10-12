@@ -1,6 +1,6 @@
 // Generated at build time by vite.config.ts.
-const CACHE = 'farm-46918add6e67';
-const FILES = ["./","assets/index-BVPLaSWg.js","assets/index-CiiBiz9M.css","icons/apple-touch-icon-120.png","icons/apple-touch-icon-152.png","icons/apple-touch-icon-167.png","icons/apple-touch-icon.png","icons/favicon-32.png","icons/icon-192.png","icons/icon-512.png","icons/maskable-512.png","manifest.webmanifest"];
+const CACHE = 'farm-3ffc72e4d18c';
+const FILES = ["./","assets/index-CPWXNTYR.js","assets/index-DM1N5kfN.css","icons/apple-touch-icon-120.png","icons/apple-touch-icon-152.png","icons/apple-touch-icon-167.png","icons/apple-touch-icon.png","icons/favicon-32.png","icons/icon-192.png","icons/icon-512.png","icons/maskable-512.png","manifest.webmanifest"];
 
 self.addEventListener('install', (event) => {
   event.waitUntil(caches.open(CACHE).then((cache) => cache.addAll(FILES)).then(() => self.skipWaiting()));
